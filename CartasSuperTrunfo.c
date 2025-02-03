@@ -2,25 +2,36 @@
 
 int main(){
 
-    int codigo da cidade;
-    char nome[80];
-    double populaçao;
-    float area;
-    double pib;
-    int pontos turisticos;
+    char Estado;
+    char CodigoCarta;
+    char nomeCidade[80];
+    int populaçao;
+    float areaKm;
+    float pib;
+    int pontosTuristicos;
 
-    printf("Bem Vindo Ao Jogo De Cartas!");
+    printf("Bem Vindo Ao Jogo De Cartas! \n");
 
-    printf("digite o codigo da cidade de 01 a 010: \n");
-    scanf("%d" , &cidade);
+    printf("Digite a Inicial Do Estado e o Código: \n");
+    scanf("%c", &Estado);
+    scanf("%2s", CodigoCarta);
 
-    print("digite o nome: \n");
-    scanf("%s" , &nome);
+    printf("Digite o nome da Cidade: \n");
+    scanf("%s", &nomeCidade);
 
-    printf("digite a populaçao: \n");
-    scanf("%d" , &populaçao);
+    printf("Digite a População: \n");
+    scanf("%f", &populaçao);
 
-    printf("
+    printf("Digite a AreaKM: \n");
+    scanf("%f", &areaKm);
+
+    printf("Digite o PIB: \n");
+    scanf("%f", &pib);
+
+    printf("Digite os Pontos Turísticos: \n");
+    scanf(" %f", &pontosTuristicos);
+
+    return 0;
     
     
     
