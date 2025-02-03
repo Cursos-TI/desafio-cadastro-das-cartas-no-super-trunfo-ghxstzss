@@ -3,7 +3,7 @@
 int main(){
 
     char Estado;
-    char CodigoCarta;
+    char CodigoCarta[3];
     char nomeCidade[80];
     int populaçao;
     float areaKm;
