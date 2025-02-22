@@ -12,9 +12,9 @@ int main(){
 
     printf("Bem Vindo Ao Jogo De Cartas! \n");
 
-    printf("Digite a Inicial Do Estado e o Código: \n");
+    printf("Digite a Inicial Do Estado e o Código de 01 a 03: \n");
     scanf("%c", &Estado);
-    scanf("%2s", CodigoCarta);
+    scanf("%2s", &CodigoCarta);
 
     printf("Digite o nome da Cidade: \n");
     scanf("%s", &nomeCidade);
