@@ -45,15 +45,15 @@ int main(){
     scanf("%f", &pib1);
 
     printf("Digite os Pontos Turísticos: \n");
-    scanf(" %f", &pontosTuristicos1);
+    scanf(" %d", &pontosTuristicos1);
     
     //CALCULO DENSIDADE E PIB PER CAPITa
 
     DensidadePopulacional1 = (float) (populacao1 / areakm1);
     PibPerCapita1 = (float) (pib1 / populacao1);
  
-    printf("Densidade Populacional: %f\n", DensidadePopulacional1);
-    printf("Pib Per Capita: %f\n", PibPerCapita1);  
+    printf("Densidade Populacional: %2.f\n", DensidadePopulacional1);
+    printf("Pib Per Capita:R$ %f\n", PibPerCapita1);  
     
     printf("------------------------------------------------------------\n");                                                                                                      
     //CADASTRO SEGUNDA CARTA
@@ -75,15 +75,15 @@ int main(){
     scanf("%f", &pib2);
 
     printf("Digite os Pontos Turísticos: \n");
-    scanf(" %f", &pontosTuristicos2);
+    scanf(" %d", &pontosTuristicos2);
     
     //CALCULO DENSIDADE E PIB PER CAPITA
 
     DensidadePopulacional2 = (float) (populacao2 / areakm2);
     PibPerCapita2 = (float) (pib2 / populacao2);
 
-    printf("Densidade Populacional: %f\n", DensidadePopulacional2);
-    printf("Pib Per Capita: %f\n", PibPerCapita2);
+    printf("Densidade Populacional: %2.f\n", DensidadePopulacional2);
+    printf("Pib Per Capita:R$ %f\n", PibPerCapita2);
 
 
 
