@@ -49,10 +49,10 @@ int main(){
     
     //CALCULO DENSIDADE E PIB PER CAPITa
 
-    DensidadePopulacional1 = (float) (populacao1 / areakm1);
-    PibPerCapita1 = (float) (pib1 / populacao1);
+    DensidadePopulacional1 = (populacao1 / areakm1);
+    PibPerCapita1 = (pib1 / populacao1);
  
-    printf("Densidade Populacional: %2.f\n", DensidadePopulacional1);
+    printf("Densidade Populacional: %f\n", DensidadePopulacional1);
     printf("Pib Per Capita:R$ %f\n", PibPerCapita1);  
     
     printf("------------------------------------------------------------\n");                                                                                                      
@@ -79,10 +79,10 @@ int main(){
     
     //CALCULO DENSIDADE E PIB PER CAPITA
 
-    DensidadePopulacional2 = (float) (populacao2 / areakm2);
-    PibPerCapita2 = (float) (pib2 / populacao2);
+    DensidadePopulacional2 = (populacao2 / areakm2);
+    PibPerCapita2 = (pib2 / populacao2);
 
-    printf("Densidade Populacional: %2.f\n", DensidadePopulacional2);
+    printf("Densidade Populacional: %f\n", DensidadePopulacional2);
     printf("Pib Per Capita:R$ %f\n", PibPerCapita2);
 
 
